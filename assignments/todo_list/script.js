@@ -7,7 +7,7 @@ async function fetchtodo(){
     
     compBtn.onclick = function(){  
         let output=''; 
-    data.forEach(function(todo,index) {
+    data.forEach(function(todo) {
         if (todo.completed == true){ output+=`
        <p style="color:blue;border: 2px solid powderblue;"key=${todo.id}>
                 "user-id":  ${todo.userId},<br>

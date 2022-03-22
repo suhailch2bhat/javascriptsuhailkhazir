@@ -1,16 +1,22 @@
-<html>
+<!DOCTYPE html>
     <head>
         <title>Todo List</title>
     </head>
-    <body>
-        <div>
-            <input type='text' name='todo_input' id = "todoInput">
-            <button type='submit' id = "addTodo">Add Todo</button>
+    <body style="background-color: aqua;">
+        <div style="background-color: yellow;">
+            <!-- <input type='text' name='todo_input'>
+            <button type='submit'>Add Todo</button>
+            <br> -->
+            <div style="background-color: yellowgreen;">
+            <button id="comp" style="width: 30%;  background-color: green; margin-left: 40%;margin-top: 20px;" type='submit'>COMPLETED</button>
+            <button id="pend" style="width: 30%; background-color: red;  margin-left: 40%;margin-top: 30px;"  type='submit'>PENDING</button>
+        </div>
+        <div style="background-color:black;">
             <div class='todos'>
-                <!-- All todos should be added here -->
+                <h2 class="h2">    </h2>
             </div>
-           
+        </div>   
         </div>
     </body>
     <script src='./script.js'></script>
-</html>
+    
